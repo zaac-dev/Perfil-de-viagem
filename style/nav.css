@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--skeleton-color);
+    padding-block: 20px;
+
+
+    #primary-menu {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        padding-block: 8px;
+        gap: 24px;
+    }
+
+    .profile-pic {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+}
