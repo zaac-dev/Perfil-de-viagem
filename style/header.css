@@ -1,0 +1,57 @@
+header {
+    padding-block: 32px;
+    border: 1px solid rgb(166, 255, 0);
+    display: flex;
+    
+
+    .container {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid rgb(0, 162, 255);
+        
+    }
+
+    #profile {
+        display: flex;
+        gap: 32px;
+        align-items: center;
+        border: 1px solid black;
+        
+
+
+        .bio{
+            max-width: 384px;
+            
+        }
+
+
+        h1 {
+            font: var(--text-lg);
+            margin-bottom: 8px;
+            }
+
+            p {
+                margin-top: 28px;
+                font: var(--text-md);
+            }
+        }
+
+        #info ul {
+            border: 1px solid red;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            width: 280px;
+            font-size: 14px;
+
+            li {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+            }
+
+    }
+}
