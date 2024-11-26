@@ -1,6 +1,5 @@
 header {
     padding-block: 32px;
-    border: 1px solid rgb(166, 255, 0);
     display: flex;
     font: var(--text-md);
 
@@ -9,7 +8,6 @@ header {
         width: 100%;
         justify-content: space-between;
         align-items: center;
-        border: 1px solid rgb(0, 162, 255);
         
     }
 
@@ -17,8 +15,13 @@ header {
         display: flex;
         gap: 32px;
         align-items: center;
-        border: 1px solid black;
         
+        img {
+            width: 176px;
+            height: 176px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
 
 
         .bio{
@@ -34,7 +37,6 @@ header {
         }
 
         #info ul {
-            border: 1px solid red;
             list-style: none;
             display: flex;
             flex-direction: column;
